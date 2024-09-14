@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "551724754459",
+    "firebase_url": "https://f-r-i-d-a-y-vlelfh.firebaseio.com",
+    "project_id": "f-r-i-d-a-y-vlelfh",
+    "storage_bucket": "f-r-i-d-a-y-vlelfh.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551724754459:android:a7f23a888b63602d5d7abe",
+        "android_client_info": {
+          "package_name": "com.friday.unidash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551724754459-jfr5qel37k6b1pemdg6hgme5upjeljr6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvGs5AAZ-MkuJzzwKT-WJLZlQ3tx6pkE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551724754459-j3rlq5jmvvgngf7q1r11l78b2rdai806.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

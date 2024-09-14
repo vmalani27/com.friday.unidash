@@ -1,0 +1,42 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("com.google.gms:google-services:4.4.2") // Correct location for the classpath dependency
+    }
+}
+
+
+plugins {
+  // ...
+
+  // Add the dependency for the Google services Gradle plugin
+  
+}
+
+
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+    
+    //  classpath("com.google.gms:google-services:4.4.2")
+}
+}
+
+rootProject.buildDir = "../build"
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+subprojects {
+    project.evaluationDependsOn(":app")
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
